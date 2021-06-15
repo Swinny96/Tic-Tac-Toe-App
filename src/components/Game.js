@@ -16,9 +16,11 @@ const Game = () => {
     setBoard(boardCopy);
     setXisNext(!xIsNext);
   };
-  const jumpTo = () => {};
+  //   const jumpTo = () => {};
   const renderMoves = () => (
-    <button className="Start" onClick={() => setBoard(Array(9).fill(null))}>Start Game</button>
+    <button className="Start" onClick={() => setBoard(Array(9).fill(null))}>
+      Start Game
+    </button>
   );
 
   return (
